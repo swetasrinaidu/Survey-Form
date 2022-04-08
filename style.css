@@ -1,0 +1,77 @@
+body{
+    color:white;
+    margin:0;
+    padding-top:0px;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url("photo-1643822643135-c737de677d27.avif"); 
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: rgb(32, 6, 73);
+    background-attachment: fixed;
+
+}
+header{
+    background-color: rgba(77, 44, 116);
+    margin:0px;
+    
+    
+}
+#title,#description{
+   display: grid;
+   place-items: center;
+   
+   
+}
+#title{
+    transform: scale(1.1);
+}
+#survey-form{
+    padding-left:20px;
+}
+#name-label{
+    line-height: 10px;
+}
+#name,#email,#number,#dropdown,#submit{
+    width: 800px;
+    height: 25px;
+    color:rgb(90, 87, 87);
+}
+
+
+#submit{
+    background-color: green;
+    color:white;
+    border: 0px;
+}
+
+@media screen and (max-width:992px){   
+  body{
+    background-image: url("photo-1643822643135-c737de677d27.avif"); 
+    background-repeat: no-repeat;
+    background-position:300px; 
+    background-attachment: fixed;
+}
+
+    #name,#email,#number,#dropdown,#submit,#comments{
+        width: 500px;
+
+    }
+}
+@media screen and (max-width:600px ){
+    body{
+        background-image: url("photo-1643822643135-c737de677d27.avif"); 
+        background-repeat: no-repeat;
+        background-position:180px; 
+        background-attachment: fixed;
+    }
+
+   #name,#email,#number,#dropdown,#submit,#comments{
+       width: 250px;
+
+   }
+
+}
+
+
+
+ 
